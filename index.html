@@ -148,11 +148,35 @@
 		</article>	
 
 </section>	
-<aside>
+<aside id="encuesta">
 	<p class="titulos">ENCUESTA</p>
-  		<form action="/action_page.php">
-    		<label for="fname">CUENTANOS TU OPINIÓN</label>
+	<p><h4>No olvides dar un enter cuando respondas la última pregunta para enviar tus respuestas (solo en la última)</h4></p>
+
+  		<form>
+    		<label for="fname">DANOS TU OPINIÓN SOBRE LA SERIE</label>
     		<input type="text" id="opi" name="opinion" placeholder="Tu opinion..">
+    	</form>	
+    	<label for="country">CONTINENTE</label>
+    	<select id="country" name="country">
+      		<option value="ASIA">ASIA</option>
+      		<option value="AFRICA">AFRICA</option>
+      		<option value="AMÉRICA DEL NORTE">AMÉRICA DEL NORTE</option>
+      		<option value="AMÉRICA DEL SUR">AMÉRICA DEL SUR</option>
+      		<option value="ANTÁRTIDA">ANTARTIDA</option>
+      		<option value="EUROPA">EUROPA</option>
+      		<option value="OCEANÍA">OCEANÍA</option>
+   		</select>
+   		<form>
+    		<label for="fname">NOMBRES</label>
+    		<input type="text" id="opi" name="opinion" placeholder="Tu nombre..">
+    	</form>	
+    	<form >
+    		<label for="fname">APELLIDOS</label>
+    		<input type="text" id="opi" name="opinion" placeholder="Tus apellidos..">
+    	</form>	
+    	<form action="encuesta.html">
+    		<label for="fname">SUGERENCIAS PARA LA PÁGINA</label>
+    		<input type="text" id="opi" name="opinion" placeholder="Tu sugerencia..">
     	</form>	
 
 </aside>	
